@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+cmake_policy(SET CMP0144 NEW)
 project(grid_map_pcl)
 
 ## Find ament macros and libraries

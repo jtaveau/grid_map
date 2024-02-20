@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
+cmake_policy(SET CMP0144 NEW)
 project(grid_map_sdf)
-
 
 ## Find ament_cmake macros and libraries
 find_package(ament_cmake REQUIRED)
